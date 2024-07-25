@@ -1,0 +1,12 @@
+<launch>
+  <node
+    name="robot_state_publisher"
+    pkg="robot_state_publisher"
+    exec="robot_state_publisher"
+    output="screen">
+    <param
+      name="robot_description"
+      value="$(cat /home/amber/ros2_ws/src/amber_b1/amber_b1_description/urdf/amber_b1.urdf)" />
+  </node>
+</launch>
+

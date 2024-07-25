@@ -1,0 +1,4 @@
+Invoking command in '/home/amber/ros2_ws/build/amber_b1_joint_control_demo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/amber/ros2_ws/build/amber_b1_joint_control_demo -- -j4 -l4
+Invoked command in '/home/amber/ros2_ws/build/amber_b1_joint_control_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/amber/ros2_ws/build/amber_b1_joint_control_demo -- -j4 -l4
+Invoking command in '/home/amber/ros2_ws/build/amber_b1_joint_control_demo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/amber/ros2_ws/build/amber_b1_joint_control_demo
+Invoked command in '/home/amber/ros2_ws/build/amber_b1_joint_control_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/amber/ros2_ws/build/amber_b1_joint_control_demo

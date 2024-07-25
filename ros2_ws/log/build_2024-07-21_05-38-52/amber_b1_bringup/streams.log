@@ -1,0 +1,31 @@
+[0.108s] Invoking command in '/home/amber/ros2_ws/build/amber_b1_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/amber/ros2_ws/build/amber_b1_bringup -- -j2 -l2
+[0.266s] Invoked command in '/home/amber/ros2_ws/build/amber_b1_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/amber/ros2_ws/build/amber_b1_bringup -- -j2 -l2
+[0.418s] Invoking command in '/home/amber/ros2_ws/build/amber_b1_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/amber/ros2_ws/build/amber_b1_bringup
+[0.464s] -- Install configuration: ""
+[0.465s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_bringup/share/amber_b1_bringup/config
+[0.466s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_bringup/share/amber_b1_bringup/config/amber_b1_trajectory_publisher_cpp.yaml
+[0.469s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_bringup/share/amber_b1_bringup/config/amber_b1_controllers.yaml
+[0.470s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_bringup/share/amber_b1_bringup/launch
+[0.471s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_bringup/share/amber_b1_bringup/launch/amber_b1.launch.py
+[0.472s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_bringup/share/amber_b1_bringup/launch/test_joint_trajectory_controller_cpp.launch.py
+[0.473s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_bringup/share/amber_b1_bringup/launch/amber_b1_hw.launch.py
+[0.475s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_bringup/share/amber_b1_bringup/launch/amber_b1_fake.launch.py
+[0.480s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_bringup/share/amber_b1_bringup/launch/amber_b1_rviz_launch.py
+[0.482s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_bringup/share/amber_b1_bringup/launch/amber_b1_hw_gui.launch.py
+[0.482s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_bringup/share/amber_b1_bringup/launch/amber_b1_fake_gui.launch.py
+[0.487s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_bringup/share/ament_index/resource_index/package_run_dependencies/amber_b1_bringup
+[0.488s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_bringup/share/ament_index/resource_index/parent_prefix_path/amber_b1_bringup
+[0.488s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_bringup/share/amber_b1_bringup/environment/ament_prefix_path.sh
+[0.492s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_bringup/share/amber_b1_bringup/environment/ament_prefix_path.dsv
+[0.493s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_bringup/share/amber_b1_bringup/environment/path.sh
+[0.494s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_bringup/share/amber_b1_bringup/environment/path.dsv
+[0.496s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_bringup/share/amber_b1_bringup/local_setup.bash
+[0.497s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_bringup/share/amber_b1_bringup/local_setup.sh
+[0.502s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_bringup/share/amber_b1_bringup/local_setup.zsh
+[0.504s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_bringup/share/amber_b1_bringup/local_setup.dsv
+[0.505s] -- Installing: /home/amber/ros2_ws/install/amber_b1_bringup/share/amber_b1_bringup/package.dsv
+[0.509s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_bringup/share/ament_index/resource_index/packages/amber_b1_bringup
+[0.509s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_bringup/share/amber_b1_bringup/cmake/amber_b1_bringupConfig.cmake
+[0.510s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_bringup/share/amber_b1_bringup/cmake/amber_b1_bringupConfig-version.cmake
+[0.511s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_bringup/share/amber_b1_bringup/package.xml
+[0.518s] Invoked command in '/home/amber/ros2_ws/build/amber_b1_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/amber/ros2_ws/build/amber_b1_bringup

@@ -1,0 +1,57 @@
+[0.081s] Invoking command in '/home/amber/ros2_ws/build/amber_b1_bringup': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/amber/ros2_ws/src/amber_b1/amber_b1_bringup -DCMAKE_INSTALL_PREFIX=/home/amber/ros2_ws/install/amber_b1_bringup
+[0.303s] -- The C compiler identification is GNU 9.3.0
+[0.486s] -- The CXX compiler identification is GNU 9.3.0
+[0.522s] -- Check for working C compiler: /usr/bin/cc
+[0.734s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.743s] -- Detecting C compiler ABI info
+[0.968s] -- Detecting C compiler ABI info - done
+[1.006s] -- Detecting C compile features
+[1.008s] -- Detecting C compile features - done
+[1.020s] -- Check for working CXX compiler: /usr/bin/c++
+[1.242s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.247s] -- Detecting CXX compiler ABI info
+[1.481s] -- Detecting CXX compiler ABI info - done
+[1.516s] -- Detecting CXX compile features
+[1.517s] -- Detecting CXX compile features - done
+[1.522s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.573s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.573s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.193s] -- Found joint_state_broadcaster: 0.5.1 (/opt/ros/foxy/share/joint_state_broadcaster/cmake)
+[2.259s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.274s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.452s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.508s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.717s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.391s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.395s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.398s] -- Looking for pthread.h
+[4.597s] -- Looking for pthread.h - found
+[4.598s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.805s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.808s] -- Looking for pthread_create in pthreads
+[4.973s] -- Looking for pthread_create in pthreads - not found
+[4.974s] -- Looking for pthread_create in pthread
+[5.334s] -- Looking for pthread_create in pthread - found
+[5.338s] -- Found Threads: TRUE  
+[6.755s] -- Found joint_trajectory_controller: 0.5.1 (/opt/ros/foxy/share/joint_trajectory_controller/cmake)
+[7.120s] CMake Error at CMakeLists.txt:22 (find_package):
+[7.120s]   By not providing "Findamber_b1_description.cmake" in CMAKE_MODULE_PATH this
+[7.120s]   project has asked CMake to find a package configuration file provided by
+[7.121s]   "amber_b1_description", but CMake did not find one.
+[7.121s] 
+[7.121s]   Could not find a package configuration file provided by
+[7.122s]   "amber_b1_description" with any of the following names:
+[7.122s] 
+[7.122s]     amber_b1_descriptionConfig.cmake
+[7.122s]     amber_b1_description-config.cmake
+[7.123s] 
+[7.123s]   Add the installation prefix of "amber_b1_description" to CMAKE_PREFIX_PATH
+[7.123s]   or set "amber_b1_description_DIR" to a directory containing one of the
+[7.124s]   above files.  If "amber_b1_description" provides a separate development
+[7.124s]   package or SDK, be sure it has been installed.
+[7.124s] 
+[7.125s] 
+[7.125s] -- Configuring incomplete, errors occurred!
+[7.125s] See also "/home/amber/ros2_ws/build/amber_b1_bringup/CMakeFiles/CMakeOutput.log".
+[7.126s] See also "/home/amber/ros2_ws/build/amber_b1_bringup/CMakeFiles/CMakeError.log".
+[7.155s] Invoked command in '/home/amber/ros2_ws/build/amber_b1_bringup' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/amber/ros2_ws/src/amber_b1/amber_b1_bringup -DCMAKE_INSTALL_PREFIX=/home/amber/ros2_ws/install/amber_b1_bringup

@@ -1,0 +1,69 @@
+[0.080s] Invoking command in '/home/amber/ros2_ws/build/amber_b1_gui_node': AMENT_PREFIX_PATH=/home/amber/ros2_ws/install/amber_b1_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amber/ros2_ws/install/amber_b1_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/amber/ros2_ws/install/amber_b1_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amber/ros2_ws/install/amber_b1_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/amber/ros2_ws/build/amber_b1_gui_node -- -j2 -l2
+[0.205s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.274s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.925s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.072s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.085s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.498s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.770s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.779s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.567s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[2.578s] -- Found amber_b1_interfaces: 0.0.0 (/home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/cmake)
+[2.608s] -- Found trajectory_msgs: 2.0.5 (/opt/ros/foxy/share/trajectory_msgs/cmake)
+[3.047s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[3.328s] -- Found geometry2: 0.13.14 (/opt/ros/foxy/share/geometry2/cmake)
+[3.337s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.617s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.622s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.623s] -- Configured cppcheck include dirs: /home/amber/ros2_ws/src/amber_b1/amber_b1_gui_node/include
+[3.623s] -- Configured cppcheck exclude dirs and/or files: 
+[3.629s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.629s] -- Configured cpplint exclude dirs and/or files: 
+[3.632s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.633s] -- Added test 'lint_cmake' to check CMake code style
+[3.634s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.637s] -- Added test 'uncrustify' to check C / C++ code style
+[3.638s] -- Configured uncrustify additional arguments: 
+[3.639s] -- Added test 'xmllint' to check XML markup files
+[3.647s] -- Configuring done
+[3.697s] -- Generating done
+[3.703s] -- Build files have been written to: /home/amber/ros2_ws/build/amber_b1_gui_node
+[3.797s] [35m[1mScanning dependencies of target gui_node[0m
+[3.978s] [ 12%] [32mBuilding CXX object CMakeFiles/gui_node.dir/src/gui_node.cpp.o[0m
+[38.821s] [ 25%] [32mBuilding CXX object CMakeFiles/gui_node.dir/src/kinematic.cpp.o[0m
+[61.333s] [ 37%] [32m[1mLinking CXX executable gui_node[0m
+[64.093s] [100%] Built target gui_node
+[64.136s] Invoked command in '/home/amber/ros2_ws/build/amber_b1_gui_node' returned '0': AMENT_PREFIX_PATH=/home/amber/ros2_ws/install/amber_b1_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amber/ros2_ws/install/amber_b1_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/amber/ros2_ws/install/amber_b1_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amber/ros2_ws/install/amber_b1_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/amber/ros2_ws/build/amber_b1_gui_node -- -j2 -l2
+[64.297s] Invoking command in '/home/amber/ros2_ws/build/amber_b1_gui_node': AMENT_PREFIX_PATH=/home/amber/ros2_ws/install/amber_b1_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amber/ros2_ws/install/amber_b1_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/amber/ros2_ws/install/amber_b1_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amber/ros2_ws/install/amber_b1_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/amber/ros2_ws/build/amber_b1_gui_node
+[64.350s] -- Install configuration: ""
+[64.377s] -- Installing: /home/amber/ros2_ws/install/amber_b1_gui_node/lib/amber_b1_gui_node/gui_node
+[64.397s] -- Set runtime path of "/home/amber/ros2_ws/install/amber_b1_gui_node/lib/amber_b1_gui_node/gui_node" to ""
+[64.400s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/launch
+[64.402s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/launch/amber_b1_gui.launch.py
+[64.405s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/include
+[64.408s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/include/amber_b1_gui_node
+[64.409s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/include/amber_b1_gui_node/rt_nonfinite.h
+[64.410s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/include/amber_b1_gui_node/kinematic.h
+[64.410s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/include/amber_b1_gui_node/ForwardKinematics.h
+[64.413s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/include/amber_b1_gui_node/InverseKinematics.h
+[64.413s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/include/amber_b1_gui_node/InverseKinematics_types.h
+[64.414s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/include/amber_b1_gui_node/rtwtypes.h
+[64.414s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/include/amber_b1_gui_node/TrajectoryGenerator.h
+[64.414s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/include/amber_b1_gui_node/udp.h
+[64.414s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/include/amber_b1_gui_node/rt_defines.h
+[64.419s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/share/ament_index/resource_index/package_run_dependencies/amber_b1_gui_node
+[64.420s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/share/ament_index/resource_index/parent_prefix_path/amber_b1_gui_node
+[64.422s] -- Installing: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/environment/ament_prefix_path.sh
+[64.424s] -- Installing: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/environment/ament_prefix_path.dsv
+[64.425s] -- Installing: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/environment/path.sh
+[64.428s] -- Installing: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/environment/path.dsv
+[64.430s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/local_setup.bash
+[64.430s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/local_setup.sh
+[64.431s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/local_setup.zsh
+[64.433s] -- Installing: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/local_setup.dsv
+[64.434s] -- Installing: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/package.dsv
+[64.437s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/share/ament_index/resource_index/packages/amber_b1_gui_node
+[64.439s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/cmake/amber_b1_gui_nodeConfig.cmake
+[64.439s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/cmake/amber_b1_gui_nodeConfig-version.cmake
+[64.440s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/package.xml
+[64.453s] Invoked command in '/home/amber/ros2_ws/build/amber_b1_gui_node' returned '0': AMENT_PREFIX_PATH=/home/amber/ros2_ws/install/amber_b1_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amber/ros2_ws/install/amber_b1_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/amber/ros2_ws/install/amber_b1_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amber/ros2_ws/install/amber_b1_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/amber/ros2_ws/build/amber_b1_gui_node

@@ -1,0 +1,35 @@
+[35m[1mScanning dependencies of target gui_node[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/gui_node.dir/src/kinematic.cpp.o[0m
+[ 25%] [32m[1mLinking CXX executable gui_node[0m
+[100%] Built target gui_node
+-- Install configuration: ""
+-- Installing: /home/amber/ros2_ws/install/amber_b1_gui_node/lib/amber_b1_gui_node/gui_node
+-- Set runtime path of "/home/amber/ros2_ws/install/amber_b1_gui_node/lib/amber_b1_gui_node/gui_node" to ""
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/launch
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/launch/amber_b1_gui.launch.py
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/include
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/include/amber_b1_gui_node
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/include/amber_b1_gui_node/TrajectoryGenerator.h
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/include/amber_b1_gui_node/ForwardKinematics.h
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/include/amber_b1_gui_node/rt_nonfinite.h
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/include/amber_b1_gui_node/rt_defines.h
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/include/amber_b1_gui_node/kinematic.h
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/include/amber_b1_gui_node/rtwtypes.h
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/include/amber_b1_gui_node/InverseKinematics.h
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/include/amber_b1_gui_node/udp.h
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/include/amber_b1_gui_node/InverseKinematics_types.h
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/share/ament_index/resource_index/package_run_dependencies/amber_b1_gui_node
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/share/ament_index/resource_index/parent_prefix_path/amber_b1_gui_node
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/environment/ament_prefix_path.sh
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/environment/path.sh
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/environment/path.dsv
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/local_setup.bash
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/local_setup.sh
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/local_setup.zsh
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/local_setup.dsv
+-- Installing: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/package.dsv
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/share/ament_index/resource_index/packages/amber_b1_gui_node
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/cmake/amber_b1_gui_nodeConfig.cmake
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/cmake/amber_b1_gui_nodeConfig-version.cmake
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/package.xml

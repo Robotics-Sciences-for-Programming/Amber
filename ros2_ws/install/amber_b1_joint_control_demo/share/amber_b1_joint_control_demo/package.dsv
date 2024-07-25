@@ -1,0 +1,8 @@
+source;share/amber_b1_joint_control_demo/hook/cmake_prefix_path.ps1
+source;share/amber_b1_joint_control_demo/hook/cmake_prefix_path.dsv
+source;share/amber_b1_joint_control_demo/hook/cmake_prefix_path.sh
+source;share/amber_b1_joint_control_demo/local_setup.bash
+source;share/amber_b1_joint_control_demo/local_setup.dsv
+source;share/amber_b1_joint_control_demo/local_setup.ps1
+source;share/amber_b1_joint_control_demo/local_setup.sh
+source;share/amber_b1_joint_control_demo/local_setup.zsh

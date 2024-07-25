@@ -1,0 +1,429 @@
+[0.000000] (-) TimerEvent: {}
+[0.000567] (amber_b1_bringup) JobQueued: {'identifier': 'amber_b1_bringup', 'dependencies': OrderedDict()}
+[0.000670] (amber_b1_description) JobQueued: {'identifier': 'amber_b1_description', 'dependencies': OrderedDict()}
+[0.000781] (amber_b1_interfaces) JobQueued: {'identifier': 'amber_b1_interfaces', 'dependencies': OrderedDict()}
+[0.000843] (amber_b1_joint_control_demo) JobQueued: {'identifier': 'amber_b1_joint_control_demo', 'dependencies': OrderedDict()}
+[0.000904] (amber_b1_gui_node) JobQueued: {'identifier': 'amber_b1_gui_node', 'dependencies': OrderedDict([('amber_b1_interfaces', '/home/amber/ros2_ws/install/amber_b1_interfaces')])}
+[0.000974] (amber_b1_hardware) JobQueued: {'identifier': 'amber_b1_hardware', 'dependencies': OrderedDict([('amber_b1_interfaces', '/home/amber/ros2_ws/install/amber_b1_interfaces')])}
+[0.001038] (amber_b1_interfaces) JobStarted: {'identifier': 'amber_b1_interfaces'}
+[0.025619] (amber_b1_bringup) JobStarted: {'identifier': 'amber_b1_bringup'}
+[0.045641] (amber_b1_description) JobStarted: {'identifier': 'amber_b1_description'}
+[0.059508] (amber_b1_joint_control_demo) JobStarted: {'identifier': 'amber_b1_joint_control_demo'}
+[0.082868] (amber_b1_interfaces) JobProgress: {'identifier': 'amber_b1_interfaces', 'progress': 'cmake'}
+[0.088169] (amber_b1_interfaces) JobProgress: {'identifier': 'amber_b1_interfaces', 'progress': 'build'}
+[0.088437] (amber_b1_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/amber/ros2_ws/build/amber_b1_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/amber/ros2_ws/build/amber_b1_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'amber'), ('SSH_CLIENT', '192.168.51.39 37688 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/amber'), ('OLDPWD', '/home/amber/ros2_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'amber'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/amber/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/amber/ros2_ws/build/amber_b1_interfaces'), ('SSH_CONNECTION', '192.168.51.39 37688 192.168.51.77 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.097016] (-) TimerEvent: {}
+[0.101494] (amber_b1_bringup) JobProgress: {'identifier': 'amber_b1_bringup', 'progress': 'cmake'}
+[0.107417] (amber_b1_bringup) Command: {'cmd': ['/usr/bin/cmake', '/home/amber/ros2_ws/src/amber_b1/amber_b1_bringup', '-DCMAKE_INSTALL_PREFIX=/home/amber/ros2_ws/install/amber_b1_bringup'], 'cwd': '/home/amber/ros2_ws/build/amber_b1_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'amber'), ('SSH_CLIENT', '192.168.51.39 37688 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/amber'), ('OLDPWD', '/home/amber/ros2_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'amber'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/amber/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/amber/ros2_ws/build/amber_b1_bringup'), ('SSH_CONNECTION', '192.168.51.39 37688 192.168.51.77 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.115252] (amber_b1_description) JobProgress: {'identifier': 'amber_b1_description', 'progress': 'cmake'}
+[0.116610] (amber_b1_description) JobProgress: {'identifier': 'amber_b1_description', 'progress': 'build'}
+[0.117620] (amber_b1_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/amber/ros2_ws/build/amber_b1_description', '--', '-j4', '-l4'], 'cwd': '/home/amber/ros2_ws/build/amber_b1_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'amber'), ('SSH_CLIENT', '192.168.51.39 37688 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/amber'), ('OLDPWD', '/home/amber/ros2_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'amber'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/amber/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/amber/ros2_ws/build/amber_b1_description'), ('SSH_CONNECTION', '192.168.51.39 37688 192.168.51.77 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.128123] (amber_b1_joint_control_demo) JobProgress: {'identifier': 'amber_b1_joint_control_demo', 'progress': 'cmake'}
+[0.131071] (amber_b1_joint_control_demo) JobProgress: {'identifier': 'amber_b1_joint_control_demo', 'progress': 'build'}
+[0.132331] (amber_b1_joint_control_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/amber/ros2_ws/build/amber_b1_joint_control_demo', '--', '-j4', '-l4'], 'cwd': '/home/amber/ros2_ws/build/amber_b1_joint_control_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'amber'), ('SSH_CLIENT', '192.168.51.39 37688 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/amber'), ('OLDPWD', '/home/amber/ros2_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'amber'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/amber/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/amber/ros2_ws/build/amber_b1_joint_control_demo'), ('SSH_CONNECTION', '192.168.51.39 37688 192.168.51.77 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.158476] (amber_b1_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.197294] (-) TimerEvent: {}
+[0.202690] (amber_b1_bringup) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.235890] (amber_b1_description) CommandEnded: {'returncode': 0}
+[0.256186] (amber_b1_interfaces) StdoutLine: {'line': b'[  9%] Built target amber_b1_interfaces__rosidl_generator_c\n'}
+[0.257146] (amber_b1_interfaces) StdoutLine: {'line': b'[ 12%] Built target amber_b1_interfaces__cpp\n'}
+[0.297665] (-) TimerEvent: {}
+[0.342006] (amber_b1_interfaces) StdoutLine: {'line': b'[ 22%] Built target amber_b1_interfaces__rosidl_typesupport_cpp\n'}
+[0.344659] (amber_b1_interfaces) StdoutLine: {'line': b'[ 32%] Built target amber_b1_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.348166] (amber_b1_joint_control_demo) StdoutLine: {'line': b'[100%] Built target joint_control_demo\n'}
+[0.364396] (amber_b1_interfaces) StdoutLine: {'line': b'[ 41%] Built target amber_b1_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.382151] (amber_b1_description) JobProgress: {'identifier': 'amber_b1_description', 'progress': 'install'}
+[0.385005] (amber_b1_interfaces) StdoutLine: {'line': b'[ 51%] Built target amber_b1_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.397880] (-) TimerEvent: {}
+[0.421663] (amber_b1_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/amber/ros2_ws/build/amber_b1_description'], 'cwd': '/home/amber/ros2_ws/build/amber_b1_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'amber'), ('SSH_CLIENT', '192.168.51.39 37688 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/amber'), ('OLDPWD', '/home/amber/ros2_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'amber'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/amber/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/amber/ros2_ws/build/amber_b1_description'), ('SSH_CONNECTION', '192.168.51.39 37688 192.168.51.77 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.425021] (amber_b1_interfaces) StdoutLine: {'line': b'[ 61%] Built target amber_b1_interfaces__rosidl_typesupport_c\n'}
+[0.426168] (amber_b1_interfaces) StdoutLine: {'line': b'[ 70%] Built target amber_b1_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.430649] (amber_b1_joint_control_demo) CommandEnded: {'returncode': 0}
+[0.447695] (amber_b1_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.449217] (amber_b1_description) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/config\n'}
+[0.450147] (amber_b1_description) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/config/rviz.rviz\n'}
+[0.450960] (amber_b1_description) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/meshes\n'}
+[0.451386] (amber_b1_description) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/meshes/six_Link.STL\n'}
+[0.451770] (amber_b1_description) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/meshes/seven_Link.STL\n'}
+[0.452195] (amber_b1_description) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/meshes/base_link.STL\n'}
+[0.452555] (amber_b1_description) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/meshes/five_Link.STL\n'}
+[0.452877] (amber_b1_description) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/meshes/one_Link.STL\n'}
+[0.453324] (amber_b1_description) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/meshes/two_Link.STL\n'}
+[0.453727] (amber_b1_description) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/meshes/four_Link.STL\n'}
+[0.459039] (amber_b1_description) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/meshes/three_Link.STL\n'}
+[0.459571] (amber_b1_description) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/launch\n'}
+[0.459975] (amber_b1_description) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/launch/view_robot_ex.launch.py\n'}
+[0.460443] (amber_b1_description) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/launch/view_robot.launch.py\n'}
+[0.460851] (amber_b1_description) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/urdf\n'}
+[0.461309] (amber_b1_description) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/urdf/amber_b1.ros2_control.xacro\n'}
+[0.461727] (amber_b1_description) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/urdf/amber_b1.urdf.xacro\n'}
+[0.462199] (amber_b1_description) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/urdf/amber_b1.urdf\n'}
+[0.462651] (amber_b1_description) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/urdf/amber_b1_description.urdf.xacro\n'}
+[0.463060] (amber_b1_description) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/ament_index/resource_index/package_run_dependencies/amber_b1_description\n'}
+[0.463611] (amber_b1_description) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/ament_index/resource_index/parent_prefix_path/amber_b1_description\n'}
+[0.463962] (amber_b1_description) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/environment/ament_prefix_path.sh\n'}
+[0.464533] (amber_b1_description) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/environment/ament_prefix_path.dsv\n'}
+[0.464930] (amber_b1_description) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/environment/path.sh\n'}
+[0.465356] (amber_b1_description) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/environment/path.dsv\n'}
+[0.465673] (amber_b1_description) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/local_setup.bash\n'}
+[0.466004] (amber_b1_description) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/local_setup.sh\n'}
+[0.468388] (amber_b1_description) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/local_setup.zsh\n'}
+[0.469471] (amber_b1_description) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/local_setup.dsv\n'}
+[0.472798] (amber_b1_description) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/package.dsv\n'}
+[0.484289] (amber_b1_description) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/ament_index/resource_index/packages/amber_b1_description\n'}
+[0.484740] (amber_b1_description) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/cmake/amber_b1_descriptionConfig.cmake\n'}
+[0.485150] (amber_b1_description) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/cmake/amber_b1_descriptionConfig-version.cmake\n'}
+[0.485603] (amber_b1_description) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/package.xml\n'}
+[0.486031] (amber_b1_description) CommandEnded: {'returncode': 0}
+[0.487773] (amber_b1_interfaces) StdoutLine: {'line': b'[ 70%] Built target amber_b1_interfaces\n'}
+[0.499145] (-) TimerEvent: {}
+[0.533206] (amber_b1_joint_control_demo) JobProgress: {'identifier': 'amber_b1_joint_control_demo', 'progress': 'install'}
+[0.534448] (amber_b1_joint_control_demo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/amber/ros2_ws/build/amber_b1_joint_control_demo'], 'cwd': '/home/amber/ros2_ws/build/amber_b1_joint_control_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'amber'), ('SSH_CLIENT', '192.168.51.39 37688 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/amber'), ('OLDPWD', '/home/amber/ros2_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'amber'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/amber/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/amber/ros2_ws/build/amber_b1_joint_control_demo'), ('SSH_CONNECTION', '192.168.51.39 37688 192.168.51.77 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.541773] (amber_b1_interfaces) StdoutLine: {'line': b'[ 74%] Built target amber_b1_interfaces__py\n'}
+[0.567596] (amber_b1_joint_control_demo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.568446] (amber_b1_joint_control_demo) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/lib/amber_b1_joint_control_demo/joint_control_demo\n'}
+[0.572142] (amber_b1_joint_control_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/amber/ros2_ws/install/amber_b1_joint_control_demo/lib/amber_b1_joint_control_demo/joint_control_demo" to ""\n'}
+[0.572944] (amber_b1_joint_control_demo) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/ament_index/resource_index/package_run_dependencies/amber_b1_joint_control_demo\n'}
+[0.573899] (amber_b1_joint_control_demo) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/ament_index/resource_index/parent_prefix_path/amber_b1_joint_control_demo\n'}
+[0.574861] (amber_b1_joint_control_demo) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/environment/ament_prefix_path.sh\n'}
+[0.576033] (amber_b1_joint_control_demo) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/environment/ament_prefix_path.dsv\n'}
+[0.576778] (amber_b1_joint_control_demo) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/environment/path.sh\n'}
+[0.577535] (amber_b1_joint_control_demo) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/environment/path.dsv\n'}
+[0.578319] (amber_b1_joint_control_demo) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/local_setup.bash\n'}
+[0.578941] (amber_b1_joint_control_demo) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/local_setup.sh\n'}
+[0.579476] (amber_b1_joint_control_demo) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/local_setup.zsh\n'}
+[0.580026] (amber_b1_joint_control_demo) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/local_setup.dsv\n'}
+[0.580596] (amber_b1_joint_control_demo) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/package.dsv\n'}
+[0.581054] (amber_b1_joint_control_demo) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/ament_index/resource_index/packages/amber_b1_joint_control_demo\n'}
+[0.581791] (amber_b1_joint_control_demo) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/cmake/amber_b1_joint_control_demoConfig.cmake\n'}
+[0.582339] (amber_b1_joint_control_demo) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/cmake/amber_b1_joint_control_demoConfig-version.cmake\n'}
+[0.582620] (amber_b1_joint_control_demo) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/package.xml\n'}
+[0.587631] (amber_b1_joint_control_demo) CommandEnded: {'returncode': 0}
+[0.599268] (-) TimerEvent: {}
+[0.608273] (amber_b1_interfaces) StdoutLine: {'line': b'[ 80%] Built target amber_b1_interfaces__python\n'}
+[0.681535] (amber_b1_interfaces) StdoutLine: {'line': b'[ 87%] Built target amber_b1_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.683051] (amber_b1_description) JobEnded: {'identifier': 'amber_b1_description', 'rc': 0}
+[0.698654] (amber_b1_interfaces) StdoutLine: {'line': b'[ 93%] Built target amber_b1_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.699393] (-) TimerEvent: {}
+[0.706665] (amber_b1_interfaces) StdoutLine: {'line': b'[100%] Built target amber_b1_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.745735] (amber_b1_joint_control_demo) JobEnded: {'identifier': 'amber_b1_joint_control_demo', 'rc': 0}
+[0.749463] (amber_b1_interfaces) CommandEnded: {'returncode': 0}
+[0.799622] (-) TimerEvent: {}
+[0.805417] (amber_b1_bringup) StdoutLine: {'line': b'-- Found joint_state_broadcaster: 0.5.1 (/opt/ros/foxy/share/joint_state_broadcaster/cmake)\n'}
+[0.856214] (amber_b1_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.870588] (amber_b1_interfaces) JobProgress: {'identifier': 'amber_b1_interfaces', 'progress': 'install'}
+[0.871195] (amber_b1_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/amber/ros2_ws/build/amber_b1_interfaces'], 'cwd': '/home/amber/ros2_ws/build/amber_b1_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'amber'), ('SSH_CLIENT', '192.168.51.39 37688 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/amber'), ('OLDPWD', '/home/amber/ros2_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'amber'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/amber/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/amber/ros2_ws/build/amber_b1_interfaces'), ('SSH_CONNECTION', '192.168.51.39 37688 192.168.51.77 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.873596] (amber_b1_bringup) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.891444] (amber_b1_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.892194] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/share/ament_index/resource_index/rosidl_interfaces/amber_b1_interfaces\n'}
+[0.892920] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces\n'}
+[0.893736] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv\n'}
+[0.894275] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv/mode.h\n'}
+[0.894535] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv/detail\n'}
+[0.894790] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv/detail/mode__type_support.h\n'}
+[0.895264] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv/detail/mode__functions.c\n'}
+[0.895505] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv/detail/mode__functions.h\n'}
+[0.895708] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv/detail/mode__struct.h\n'}
+[0.896035] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/msg\n'}
+[0.896299] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.896543] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/environment/library_path.sh\n'}
+[0.896859] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/environment/library_path.dsv\n'}
+[0.897530] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/lib/libamber_b1_interfaces__rosidl_generator_c.so\n'}
+[0.897914] (amber_b1_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/amber/ros2_ws/install/amber_b1_interfaces/lib/libamber_b1_interfaces__rosidl_generator_c.so" to ""\n'}
+[0.898228] (amber_b1_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces\n'}
+[0.898445] (amber_b1_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv\n'}
+[0.898784] (amber_b1_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv/detail\n'}
+[0.899341] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv/detail/mode__rosidl_typesupport_fastrtps_c.h\n'}
+[0.900526] (-) TimerEvent: {}
+[0.900927] (amber_b1_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/msg\n'}
+[0.901616] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.902186] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/lib/libamber_b1_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[0.902519] (amber_b1_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/amber/ros2_ws/install/amber_b1_interfaces/lib/libamber_b1_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[0.902897] (amber_b1_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces\n'}
+[0.903284] (amber_b1_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv\n'}
+[0.903564] (amber_b1_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv/detail\n'}
+[0.903879] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv/detail/mode__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.904270] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv/detail/dds_fastrtps\n'}
+[0.904752] (amber_b1_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/msg\n'}
+[0.905185] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.905509] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/lib/libamber_b1_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.905750] (amber_b1_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/amber/ros2_ws/install/amber_b1_interfaces/lib/libamber_b1_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[0.906239] (amber_b1_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces\n'}
+[0.906514] (amber_b1_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv\n'}
+[0.906862] (amber_b1_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv/detail\n'}
+[0.907128] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv/detail/mode__type_support.c\n'}
+[0.907368] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv/detail/mode__rosidl_typesupport_introspection_c.h\n'}
+[0.907575] (amber_b1_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/msg\n'}
+[0.907821] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.908172] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/lib/libamber_b1_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[0.908501] (amber_b1_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/amber/ros2_ws/install/amber_b1_interfaces/lib/libamber_b1_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[0.908711] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/lib/libamber_b1_interfaces__rosidl_typesupport_c.so\n'}
+[0.909054] (amber_b1_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/amber/ros2_ws/install/amber_b1_interfaces/lib/libamber_b1_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[0.909343] (amber_b1_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces\n'}
+[0.909580] (amber_b1_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv\n'}
+[0.909890] (amber_b1_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv/detail\n'}
+[0.910267] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv/detail/mode__struct.hpp\n'}
+[0.910506] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv/detail/mode__traits.hpp\n'}
+[0.910704] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv/detail/mode__builder.hpp\n'}
+[0.910901] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv/mode.hpp\n'}
+[0.911216] (amber_b1_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces\n'}
+[0.911616] (amber_b1_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv\n'}
+[0.912003] (amber_b1_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv/detail\n'}
+[0.912459] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv/detail/mode__type_support.cpp\n'}
+[0.912874] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv/detail/mode__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.913378] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/lib/libamber_b1_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[0.913772] (amber_b1_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/amber/ros2_ws/install/amber_b1_interfaces/lib/libamber_b1_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[0.914242] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/lib/libamber_b1_interfaces__rosidl_typesupport_cpp.so\n'}
+[0.914591] (amber_b1_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/amber/ros2_ws/install/amber_b1_interfaces/lib/libamber_b1_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[0.914899] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/environment/pythonpath.sh\n'}
+[0.915317] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/environment/pythonpath.dsv\n'}
+[0.915690] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/lib/python3.8/site-packages/amber_b1_interfaces/__init__.py\n'}
+[1.000717] (-) TimerEvent: {}
+[1.005887] (amber_b1_interfaces) StdoutLine: {'line': b"Compiling '/home/amber/ros2_ws/install/amber_b1_interfaces/lib/python3.8/site-packages/amber_b1_interfaces/__init__.py'...\n"}
+[1.021193] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/lib/python3.8/site-packages/amber_b1_interfaces/srv\n'}
+[1.021630] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/lib/python3.8/site-packages/amber_b1_interfaces/srv/_mode.py\n'}
+[1.021836] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/lib/python3.8/site-packages/amber_b1_interfaces/srv/_mode_s.c\n'}
+[1.024242] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/lib/python3.8/site-packages/amber_b1_interfaces/srv/__init__.py\n'}
+[1.024716] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/lib/python3.8/site-packages/amber_b1_interfaces/amber_b1_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.025374] (amber_b1_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/amber/ros2_ws/install/amber_b1_interfaces/lib/python3.8/site-packages/amber_b1_interfaces/amber_b1_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[1.027228] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/lib/python3.8/site-packages/amber_b1_interfaces/amber_b1_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.028183] (amber_b1_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/amber/ros2_ws/install/amber_b1_interfaces/lib/python3.8/site-packages/amber_b1_interfaces/amber_b1_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[1.030268] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/lib/python3.8/site-packages/amber_b1_interfaces/amber_b1_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.031436] (amber_b1_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/amber/ros2_ws/install/amber_b1_interfaces/lib/python3.8/site-packages/amber_b1_interfaces/amber_b1_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[1.032277] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/lib/libamber_b1_interfaces__python.so\n'}
+[1.032890] (amber_b1_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/amber/ros2_ws/install/amber_b1_interfaces/lib/libamber_b1_interfaces__python.so" to ""\n'}
+[1.034126] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/srv/Mode.idl\n'}
+[1.034895] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/srv/Mode.srv\n'}
+[1.035420] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/srv/Mode_Request.msg\n'}
+[1.035655] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/srv/Mode_Response.msg\n'}
+[1.036051] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/share/ament_index/resource_index/package_run_dependencies/amber_b1_interfaces\n'}
+[1.036514] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/share/ament_index/resource_index/parent_prefix_path/amber_b1_interfaces\n'}
+[1.036758] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/environment/ament_prefix_path.sh\n'}
+[1.037196] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/environment/ament_prefix_path.dsv\n'}
+[1.038057] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/environment/path.sh\n'}
+[1.039151] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/environment/path.dsv\n'}
+[1.040357] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/local_setup.bash\n'}
+[1.040828] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/local_setup.sh\n'}
+[1.041053] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/local_setup.zsh\n'}
+[1.041514] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/local_setup.dsv\n'}
+[1.041876] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/package.dsv\n'}
+[1.042574] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/share/ament_index/resource_index/packages/amber_b1_interfaces\n'}
+[1.043944] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/cmake/amber_b1_interfaces__rosidl_generator_cExport.cmake\n'}
+[1.044291] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/cmake/amber_b1_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.044724] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/cmake/amber_b1_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.044956] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/cmake/amber_b1_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.045393] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/cmake/amber_b1_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[1.045775] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/cmake/amber_b1_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.045987] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/cmake/amber_b1_interfaces__rosidl_generator_cppExport.cmake\n'}
+[1.046433] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/cmake/amber_b1_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.046859] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/cmake/amber_b1_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.047246] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/cmake/amber_b1_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[1.047493] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/cmake/amber_b1_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.047709] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[1.048496] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.049588] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.050423] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.051293] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.051767] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.051976] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.052279] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/cmake/amber_b1_interfacesConfig.cmake\n'}
+[1.052504] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/cmake/amber_b1_interfacesConfig-version.cmake\n'}
+[1.052700] (amber_b1_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/package.xml\n'}
+[1.056761] (amber_b1_interfaces) CommandEnded: {'returncode': 0}
+[1.101067] (-) TimerEvent: {}
+[1.132439] (amber_b1_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.201232] (-) TimerEvent: {}
+[1.266247] (amber_b1_interfaces) JobEnded: {'identifier': 'amber_b1_interfaces', 'rc': 0}
+[1.273984] (amber_b1_gui_node) JobStarted: {'identifier': 'amber_b1_gui_node'}
+[1.284175] (amber_b1_hardware) JobStarted: {'identifier': 'amber_b1_hardware'}
+[1.303966] (-) TimerEvent: {}
+[1.305416] (amber_b1_gui_node) JobProgress: {'identifier': 'amber_b1_gui_node', 'progress': 'cmake'}
+[1.306536] (amber_b1_gui_node) Command: {'cmd': ['/usr/bin/cmake', '/home/amber/ros2_ws/src/amber_b1/amber_b1_gui_node', '-DCMAKE_INSTALL_PREFIX=/home/amber/ros2_ws/install/amber_b1_gui_node'], 'cwd': '/home/amber/ros2_ws/build/amber_b1_gui_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'amber'), ('SSH_CLIENT', '192.168.51.39 37688 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/amber/ros2_ws/install/amber_b1_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/amber'), ('OLDPWD', '/home/amber/ros2_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'amber'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/amber/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/amber/ros2_ws/install/amber_b1_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/amber/ros2_ws/build/amber_b1_gui_node'), ('SSH_CONNECTION', '192.168.51.39 37688 192.168.51.77 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/amber/ros2_ws/install/amber_b1_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/amber/ros2_ws/install/amber_b1_interfaces:/opt/ros/foxy')]), 'shell': False}
+[1.319574] (amber_b1_hardware) JobProgress: {'identifier': 'amber_b1_hardware', 'progress': 'cmake'}
+[1.320235] (amber_b1_hardware) Command: {'cmd': ['/usr/bin/cmake', '/home/amber/ros2_ws/src/amber_b1/amber_b1_hardware', '-DCMAKE_INSTALL_PREFIX=/home/amber/ros2_ws/install/amber_b1_hardware'], 'cwd': '/home/amber/ros2_ws/build/amber_b1_hardware', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'amber'), ('SSH_CLIENT', '192.168.51.39 37688 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/amber/ros2_ws/install/amber_b1_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/amber'), ('OLDPWD', '/home/amber/ros2_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'amber'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/amber/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/amber/ros2_ws/install/amber_b1_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/amber/ros2_ws/build/amber_b1_hardware'), ('SSH_CONNECTION', '192.168.51.39 37688 192.168.51.77 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/amber/ros2_ws/install/amber_b1_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/amber/ros2_ws/install/amber_b1_interfaces:/opt/ros/foxy')]), 'shell': False}
+[1.404216] (-) TimerEvent: {}
+[1.477816] (amber_b1_gui_node) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[1.486934] (amber_b1_hardware) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[1.504379] (-) TimerEvent: {}
+[1.605041] (-) TimerEvent: {}
+[1.678322] (amber_b1_gui_node) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[1.679306] (amber_b1_hardware) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[1.689842] (amber_b1_gui_node) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.690605] (amber_b1_hardware) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.705347] (-) TimerEvent: {}
+[1.806120] (-) TimerEvent: {}
+[1.872409] (amber_b1_gui_node) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.874411] (amber_b1_gui_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.883847] (amber_b1_hardware) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.885864] (amber_b1_hardware) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.906251] (-) TimerEvent: {}
+[2.007190] (-) TimerEvent: {}
+[2.063255] (amber_b1_gui_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.079977] (amber_b1_hardware) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.098757] (amber_b1_gui_node) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.099614] (amber_b1_gui_node) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.106251] (amber_b1_gui_node) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.107288] (-) TimerEvent: {}
+[2.111768] (amber_b1_hardware) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.112616] (amber_b1_hardware) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.119695] (amber_b1_hardware) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.207472] (-) TimerEvent: {}
+[2.308366] (-) TimerEvent: {}
+[2.326909] (amber_b1_gui_node) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.328984] (amber_b1_hardware) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.329703] (amber_b1_gui_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.331689] (amber_b1_hardware) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.408562] (-) TimerEvent: {}
+[2.509537] (-) TimerEvent: {}
+[2.540917] (amber_b1_gui_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.555424] (amber_b1_hardware) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.575486] (amber_b1_gui_node) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.576805] (amber_b1_gui_node) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.581331] (amber_b1_gui_node) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.588302] (amber_b1_hardware) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.589685] (amber_b1_hardware) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.594736] (amber_b1_hardware) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.609702] (-) TimerEvent: {}
+[2.632724] (amber_b1_gui_node) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[2.633457] (amber_b1_gui_node) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.648169] (amber_b1_hardware) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[2.648676] (amber_b1_hardware) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.709897] (-) TimerEvent: {}
+[2.740945] (amber_b1_bringup) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[2.745387] (amber_b1_bringup) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.810064] (-) TimerEvent: {}
+[2.910975] (-) TimerEvent: {}
+[3.011923] (-) TimerEvent: {}
+[3.112945] (-) TimerEvent: {}
+[3.144005] (amber_b1_hardware) StdoutLine: {'line': b'-- Found hardware_interface: 0.8.1 (/opt/ros/foxy/share/hardware_interface/cmake)\n'}
+[3.210329] (amber_b1_hardware) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.213185] (-) TimerEvent: {}
+[3.225436] (amber_b1_hardware) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[3.243244] (amber_b1_gui_node) StdoutLine: {'line': b'-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[3.313349] (-) TimerEvent: {}
+[3.347315] (amber_b1_gui_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.362688] (amber_b1_gui_node) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[3.377768] (amber_b1_hardware) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[3.413515] (-) TimerEvent: {}
+[3.425684] (amber_b1_hardware) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[3.513701] (-) TimerEvent: {}
+[3.515271] (amber_b1_gui_node) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[3.564245] (amber_b1_gui_node) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[3.597338] (amber_b1_hardware) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.613890] (-) TimerEvent: {}
+[3.663037] (amber_b1_bringup) StdoutLine: {'line': b'-- Found joint_trajectory_controller: 0.5.1 (/opt/ros/foxy/share/joint_trajectory_controller/cmake)\n'}
+[3.714072] (-) TimerEvent: {}
+[3.744286] (amber_b1_gui_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.814257] (-) TimerEvent: {}
+[3.909350] (amber_b1_gui_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[3.913868] (amber_b1_gui_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.914390] (-) TimerEvent: {}
+[3.916757] (amber_b1_gui_node) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.981394] (amber_b1_bringup) StderrLine: {'line': b'CMake Error at CMakeLists.txt:22 (find_package):\n'}
+[3.981970] (amber_b1_bringup) StderrLine: {'line': b'  By not providing "Findamber_b1_description.cmake" in CMAKE_MODULE_PATH this\n'}
+[3.982435] (amber_b1_bringup) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[3.982768] (amber_b1_bringup) StderrLine: {'line': b'  "amber_b1_description", but CMake did not find one.\n'}
+[3.983053] (amber_b1_bringup) StderrLine: {'line': b'\n'}
+[3.983427] (amber_b1_bringup) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[3.983726] (amber_b1_bringup) StderrLine: {'line': b'  "amber_b1_description" with any of the following names:\n'}
+[3.984016] (amber_b1_bringup) StderrLine: {'line': b'\n'}
+[3.984385] (amber_b1_bringup) StderrLine: {'line': b'    amber_b1_descriptionConfig.cmake\n'}
+[3.984959] (amber_b1_bringup) StderrLine: {'line': b'    amber_b1_description-config.cmake\n'}
+[3.985363] (amber_b1_bringup) StderrLine: {'line': b'\n'}
+[3.985657] (amber_b1_bringup) StderrLine: {'line': b'  Add the installation prefix of "amber_b1_description" to CMAKE_PREFIX_PATH\n'}
+[3.985968] (amber_b1_bringup) StderrLine: {'line': b'  or set "amber_b1_description_DIR" to a directory containing one of the\n'}
+[3.986389] (amber_b1_bringup) StderrLine: {'line': b'  above files.  If "amber_b1_description" provides a separate development\n'}
+[3.986684] (amber_b1_bringup) StderrLine: {'line': b'  package or SDK, be sure it has been installed.\n'}
+[3.986962] (amber_b1_bringup) StderrLine: {'line': b'\n'}
+[3.987340] (amber_b1_bringup) StderrLine: {'line': b'\n'}
+[3.987647] (amber_b1_bringup) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.987941] (amber_b1_bringup) StdoutLine: {'line': b'See also "/home/amber/ros2_ws/build/amber_b1_bringup/CMakeFiles/CMakeOutput.log".\n'}
+[3.988318] (amber_b1_bringup) StdoutLine: {'line': b'See also "/home/amber/ros2_ws/build/amber_b1_bringup/CMakeFiles/CMakeError.log".\n'}
+[4.009165] (amber_b1_bringup) CommandEnded: {'returncode': 1}
+[4.015115] (-) TimerEvent: {}
+[4.059179] (amber_b1_bringup) JobEnded: {'identifier': 'amber_b1_bringup', 'rc': 1}
+[4.115256] (-) TimerEvent: {}
+[4.124489] (amber_b1_gui_node) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.125256] (amber_b1_gui_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.215429] (-) TimerEvent: {}
+[4.316152] (-) TimerEvent: {}
+[4.349334] (amber_b1_gui_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[4.350168] (amber_b1_gui_node) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[4.416313] (-) TimerEvent: {}
+[4.481801] (amber_b1_gui_node) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[4.482440] (amber_b1_gui_node) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[4.516508] (-) TimerEvent: {}
+[4.617212] (-) TimerEvent: {}
+[4.665774] (amber_b1_gui_node) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[4.668404] (amber_b1_gui_node) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.717381] (-) TimerEvent: {}
+[4.818071] (-) TimerEvent: {}
+[4.918807] (-) TimerEvent: {}
+[4.994890] (amber_b1_hardware) StdoutLine: {'line': b'-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[5.019057] (-) TimerEvent: {}
+[5.114010] (amber_b1_hardware) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[5.118136] (amber_b1_hardware) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.119321] (-) TimerEvent: {}
+[5.120135] (amber_b1_hardware) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[5.126671] (amber_b1_gui_node) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)\n'}
+[5.133294] (amber_b1_gui_node) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[5.136581] (amber_b1_gui_node) StdoutLine: {'line': b'-- Found amber_b1_interfaces: 0.0.0 (/home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/cmake)\n'}
+[5.157910] (amber_b1_gui_node) StdoutLine: {'line': b'-- Found trajectory_msgs: 2.0.4 (/opt/ros/foxy/share/trajectory_msgs/cmake)\n'}
+[5.219520] (-) TimerEvent: {}
+[5.313172] (amber_b1_hardware) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[5.313756] (amber_b1_hardware) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.319705] (-) TimerEvent: {}
+[5.420350] (-) TimerEvent: {}
+[5.501167] (amber_b1_gui_node) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[5.520531] (-) TimerEvent: {}
+[5.526058] (amber_b1_hardware) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[5.526809] (amber_b1_hardware) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[5.620788] (-) TimerEvent: {}
+[5.661428] (amber_b1_hardware) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[5.662069] (amber_b1_hardware) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[5.710919] (amber_b1_gui_node) StdoutLine: {'line': b'-- Found geometry2: 0.13.12 (/opt/ros/foxy/share/geometry2/cmake)\n'}
+[5.718918] (amber_b1_gui_node) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[5.720901] (-) TimerEvent: {}
+[5.821684] (-) TimerEvent: {}
+[5.844151] (amber_b1_hardware) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[5.846589] (amber_b1_hardware) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.921909] (-) TimerEvent: {}
+[5.929337] (amber_b1_gui_node) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[5.932923] (amber_b1_gui_node) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.933777] (amber_b1_gui_node) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/amber/ros2_ws/src/amber_b1/amber_b1_gui_node/include\n'}
+[5.934336] (amber_b1_gui_node) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.936796] (amber_b1_gui_node) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[5.937396] (amber_b1_gui_node) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[5.938723] (amber_b1_gui_node) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[5.940670] (amber_b1_gui_node) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.942388] (amber_b1_gui_node) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[5.945492] (amber_b1_gui_node) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[5.946002] (amber_b1_gui_node) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[5.947353] (amber_b1_gui_node) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.954221] (amber_b1_gui_node) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.984894] (amber_b1_gui_node) StdoutLine: {'line': b'-- Generating done\n'}
+[5.989400] (amber_b1_gui_node) StdoutLine: {'line': b'-- Build files have been written to: /home/amber/ros2_ws/build/amber_b1_gui_node\n'}
+[6.012842] (amber_b1_gui_node) JobEnded: {'identifier': 'amber_b1_gui_node', 'rc': 'SIGINT'}
+[6.022215] (-) TimerEvent: {}
+[6.122897] (-) TimerEvent: {}
+[6.223668] (-) TimerEvent: {}
+[6.239298] (amber_b1_hardware) StdoutLine: {'line': b'-- Found amber_b1_interfaces: 0.0.0 (/home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/cmake)\n'}
+[6.290467] (amber_b1_hardware) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[6.323853] (-) TimerEvent: {}
+[6.424534] (-) TimerEvent: {}
+[6.497170] (amber_b1_hardware) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[6.499941] (amber_b1_hardware) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.500600] (amber_b1_hardware) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/amber/ros2_ws/src/amber_b1/amber_b1_hardware/include\n'}
+[6.500909] (amber_b1_hardware) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.502876] (amber_b1_hardware) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[6.503369] (amber_b1_hardware) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[6.504846] (amber_b1_hardware) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.507354] (amber_b1_hardware) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.507784] (amber_b1_hardware) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.508774] (amber_b1_hardware) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.520393] (amber_b1_hardware) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.524808] (-) TimerEvent: {}
+[6.566618] (amber_b1_hardware) StdoutLine: {'line': b'-- Generating done\n'}
+[6.571414] (amber_b1_hardware) StdoutLine: {'line': b'-- Build files have been written to: /home/amber/ros2_ws/build/amber_b1_hardware\n'}
+[6.595617] (amber_b1_hardware) JobEnded: {'identifier': 'amber_b1_hardware', 'rc': 'SIGINT'}
+[6.607953] (-) EventReactorShutdown: {}

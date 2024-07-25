@@ -1,0 +1,31 @@
+[0.084s] Invoking command in '/home/amber/ros2_ws/build/amber_b1_bringup': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/amber/ros2_ws/src/amber_b1/amber_b1_bringup -DCMAKE_INSTALL_PREFIX=/home/amber/ros2_ws/install/amber_b1_bringup
+[0.133s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.177s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.780s] -- Found joint_state_broadcaster: 0.5.1 (/opt/ros/foxy/share/joint_state_broadcaster/cmake)
+[0.831s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.848s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.107s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.716s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.720s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.638s] -- Found joint_trajectory_controller: 0.5.1 (/opt/ros/foxy/share/joint_trajectory_controller/cmake)
+[3.956s] CMake Error at CMakeLists.txt:22 (find_package):
+[3.957s]   By not providing "Findamber_b1_description.cmake" in CMAKE_MODULE_PATH this
+[3.957s]   project has asked CMake to find a package configuration file provided by
+[3.957s]   "amber_b1_description", but CMake did not find one.
+[3.958s] 
+[3.958s]   Could not find a package configuration file provided by
+[3.958s]   "amber_b1_description" with any of the following names:
+[3.959s] 
+[3.959s]     amber_b1_descriptionConfig.cmake
+[3.960s]     amber_b1_description-config.cmake
+[3.960s] 
+[3.960s]   Add the installation prefix of "amber_b1_description" to CMAKE_PREFIX_PATH
+[3.961s]   or set "amber_b1_description_DIR" to a directory containing one of the
+[3.961s]   above files.  If "amber_b1_description" provides a separate development
+[3.961s]   package or SDK, be sure it has been installed.
+[3.961s] 
+[3.962s] 
+[3.962s] -- Configuring incomplete, errors occurred!
+[3.962s] See also "/home/amber/ros2_ws/build/amber_b1_bringup/CMakeFiles/CMakeOutput.log".
+[3.963s] See also "/home/amber/ros2_ws/build/amber_b1_bringup/CMakeFiles/CMakeError.log".
+[3.985s] Invoked command in '/home/amber/ros2_ws/build/amber_b1_bringup' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/amber/ros2_ws/src/amber_b1/amber_b1_bringup -DCMAKE_INSTALL_PREFIX=/home/amber/ros2_ws/install/amber_b1_bringup

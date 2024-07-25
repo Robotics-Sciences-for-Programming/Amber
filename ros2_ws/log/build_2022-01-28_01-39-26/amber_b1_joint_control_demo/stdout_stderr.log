@@ -1,0 +1,19 @@
+[100%] Built target joint_control_demo
+-- Install configuration: ""
+-- Installing: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/lib/amber_b1_joint_control_demo/joint_control_demo
+-- Set runtime path of "/home/amber/ros2_ws/install/amber_b1_joint_control_demo/lib/amber_b1_joint_control_demo/joint_control_demo" to ""
+-- Installing: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/ament_index/resource_index/package_run_dependencies/amber_b1_joint_control_demo
+-- Installing: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/ament_index/resource_index/parent_prefix_path/amber_b1_joint_control_demo
+-- Installing: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/environment/ament_prefix_path.sh
+-- Installing: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/environment/ament_prefix_path.dsv
+-- Installing: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/environment/path.sh
+-- Installing: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/environment/path.dsv
+-- Installing: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/local_setup.bash
+-- Installing: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/local_setup.sh
+-- Installing: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/local_setup.zsh
+-- Installing: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/local_setup.dsv
+-- Installing: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/package.dsv
+-- Installing: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/ament_index/resource_index/packages/amber_b1_joint_control_demo
+-- Installing: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/cmake/amber_b1_joint_control_demoConfig.cmake
+-- Installing: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/cmake/amber_b1_joint_control_demoConfig-version.cmake
+-- Installing: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/package.xml

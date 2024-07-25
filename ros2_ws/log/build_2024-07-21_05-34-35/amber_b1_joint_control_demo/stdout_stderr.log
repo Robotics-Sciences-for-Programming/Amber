@@ -1,0 +1,18 @@
+[100%] Built target joint_control_demo
+-- Install configuration: ""
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/lib/amber_b1_joint_control_demo/joint_control_demo
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/ament_index/resource_index/package_run_dependencies/amber_b1_joint_control_demo
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/ament_index/resource_index/parent_prefix_path/amber_b1_joint_control_demo
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/environment/ament_prefix_path.sh
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/environment/path.sh
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/environment/path.dsv
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/local_setup.bash
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/local_setup.sh
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/local_setup.zsh
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/local_setup.dsv
+-- Installing: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/package.dsv
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/ament_index/resource_index/packages/amber_b1_joint_control_demo
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/cmake/amber_b1_joint_control_demoConfig.cmake
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/cmake/amber_b1_joint_control_demoConfig-version.cmake
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/package.xml

@@ -1,0 +1,40 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/amber/ros2_ws/build/amber_b1_description
+-- Install configuration: ""
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/config
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/config/rviz.rviz
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/meshes
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/meshes/base_link.STL
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/meshes/three_Link.STL
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/meshes/four_Link.STL
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/meshes/seven_Link.STL
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/meshes/two_Link.STL
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/meshes/six_Link.STL
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/meshes/one_Link.STL
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/meshes/five_Link.STL
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/launch
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/launch/view_robot.launch.py
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/launch/view_robot_ex.launch.py
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/urdf
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/urdf/amber_b1.urdf
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/urdf/amber_b1.ros2_control.xacro
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/urdf/amber_b1_description.urdf.xacro
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/urdf/amber_b1.urdf.xacro
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/ament_index/resource_index/package_run_dependencies/amber_b1_description
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/ament_index/resource_index/parent_prefix_path/amber_b1_description
+-- Installing: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/environment/ament_prefix_path.sh
+-- Installing: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/environment/ament_prefix_path.dsv
+-- Installing: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/environment/path.sh
+-- Installing: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/environment/path.dsv
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/local_setup.bash
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/local_setup.sh
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/local_setup.zsh
+-- Installing: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/local_setup.dsv
+-- Installing: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/package.dsv
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/ament_index/resource_index/packages/amber_b1_description
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/cmake/amber_b1_descriptionConfig.cmake
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/cmake/amber_b1_descriptionConfig-version.cmake
+-- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/package.xml

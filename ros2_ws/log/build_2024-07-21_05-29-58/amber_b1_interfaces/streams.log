@@ -1,0 +1,119 @@
+[0.111s] Invoking command in '/home/amber/ros2_ws/build/amber_b1_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/amber/ros2_ws/build/amber_b1_interfaces -- -j2 -l2
+[0.677s] [  9%] Built target amber_b1_interfaces__rosidl_generator_c
+[0.768s] [ 12%] Built target amber_b1_interfaces__cpp
+[1.028s] [ 22%] Built target amber_b1_interfaces__rosidl_typesupport_c
+[1.114s] [ 32%] Built target amber_b1_interfaces__rosidl_typesupport_introspection_c
+[1.208s] [ 41%] Built target amber_b1_interfaces__rosidl_typesupport_introspection_cpp
+[1.273s] [ 51%] Built target amber_b1_interfaces__rosidl_typesupport_cpp
+[1.334s] [ 61%] Built target amber_b1_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.409s] [ 70%] Built target amber_b1_interfaces__rosidl_typesupport_fastrtps_c
+[1.534s] [ 70%] Built target amber_b1_interfaces
+[1.632s] [ 74%] Built target amber_b1_interfaces__py
+[1.736s] [ 80%] Built target amber_b1_interfaces__python
+[1.823s] [ 87%] Built target amber_b1_interfaces__rosidl_typesupport_c__pyext
+[1.913s] [ 93%] Built target amber_b1_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.016s] [100%] Built target amber_b1_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.057s] Invoked command in '/home/amber/ros2_ws/build/amber_b1_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/amber/ros2_ws/build/amber_b1_interfaces -- -j2 -l2
+[2.300s] Invoking command in '/home/amber/ros2_ws/build/amber_b1_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/amber/ros2_ws/build/amber_b1_interfaces
+[2.335s] -- Install configuration: ""
+[2.336s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/share/ament_index/resource_index/rosidl_interfaces/amber_b1_interfaces
+[2.338s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces
+[2.339s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv
+[2.341s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv/detail
+[2.342s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv/detail/mode__functions.h
+[2.342s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv/detail/mode__type_support.h
+[2.343s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv/detail/mode__functions.c
+[2.343s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv/detail/mode__struct.h
+[2.344s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv/mode.h
+[2.345s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/msg
+[2.346s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.347s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/environment/library_path.sh
+[2.348s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/environment/library_path.dsv
+[2.353s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/lib/libamber_b1_interfaces__rosidl_generator_c.so
+[2.356s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces
+[2.356s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv
+[2.356s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv/detail
+[2.358s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv/detail/mode__rosidl_typesupport_fastrtps_c.h
+[2.358s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/msg
+[2.358s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.379s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/lib/libamber_b1_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.381s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces
+[2.382s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv
+[2.383s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv/detail
+[2.384s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv/detail/mode__rosidl_typesupport_fastrtps_cpp.hpp
+[2.384s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv/detail/dds_fastrtps
+[2.386s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/msg
+[2.387s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.387s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/lib/libamber_b1_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.388s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces
+[2.392s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv
+[2.392s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv/detail
+[2.393s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv/detail/mode__rosidl_typesupport_introspection_c.h
+[2.394s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv/detail/mode__type_support.c
+[2.394s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/msg
+[2.397s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.397s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/lib/libamber_b1_interfaces__rosidl_typesupport_introspection_c.so
+[2.398s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/lib/libamber_b1_interfaces__rosidl_typesupport_c.so
+[2.399s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces
+[2.401s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv
+[2.402s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv/detail
+[2.403s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv/detail/mode__builder.hpp
+[2.403s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv/detail/mode__traits.hpp
+[2.403s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv/detail/mode__struct.hpp
+[2.404s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv/mode.hpp
+[2.404s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces
+[2.405s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv
+[2.406s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv/detail
+[2.407s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv/detail/mode__rosidl_typesupport_introspection_cpp.hpp
+[2.407s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/include/amber_b1_interfaces/srv/detail/mode__type_support.cpp
+[2.408s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/lib/libamber_b1_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.408s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/lib/libamber_b1_interfaces__rosidl_typesupport_cpp.so
+[2.409s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/environment/pythonpath.sh
+[2.409s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/environment/pythonpath.dsv
+[2.412s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/lib/python3.8/site-packages/amber_b1_interfaces/__init__.py
+[2.561s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/lib/python3.8/site-packages/amber_b1_interfaces/srv
+[2.561s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/lib/python3.8/site-packages/amber_b1_interfaces/srv/_mode_s.c
+[2.561s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/lib/python3.8/site-packages/amber_b1_interfaces/srv/_mode.py
+[2.562s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/lib/python3.8/site-packages/amber_b1_interfaces/srv/__init__.py
+[2.562s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/lib/python3.8/site-packages/amber_b1_interfaces/amber_b1_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[2.564s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/lib/python3.8/site-packages/amber_b1_interfaces/amber_b1_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[2.565s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/lib/python3.8/site-packages/amber_b1_interfaces/amber_b1_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[2.566s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/lib/libamber_b1_interfaces__python.so
+[2.567s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/srv/Mode.idl
+[2.567s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/srv/Mode.srv
+[2.568s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/srv/Mode_Request.msg
+[2.570s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/srv/Mode_Response.msg
+[2.571s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/share/ament_index/resource_index/package_run_dependencies/amber_b1_interfaces
+[2.572s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/share/ament_index/resource_index/parent_prefix_path/amber_b1_interfaces
+[2.573s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/environment/ament_prefix_path.sh
+[2.575s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/environment/ament_prefix_path.dsv
+[2.575s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/environment/path.sh
+[2.575s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/environment/path.dsv
+[2.576s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/local_setup.bash
+[2.576s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/local_setup.sh
+[2.576s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/local_setup.zsh
+[2.577s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/local_setup.dsv
+[2.577s] -- Installing: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/package.dsv
+[2.577s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/share/ament_index/resource_index/packages/amber_b1_interfaces
+[2.578s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/cmake/amber_b1_interfaces__rosidl_generator_cExport.cmake
+[2.581s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/cmake/amber_b1_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.587s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/cmake/amber_b1_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.587s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/cmake/amber_b1_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.588s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/cmake/amber_b1_interfaces__rosidl_typesupport_cExport.cmake
+[2.591s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/cmake/amber_b1_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.592s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/cmake/amber_b1_interfaces__rosidl_generator_cppExport.cmake
+[2.593s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/cmake/amber_b1_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.593s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/cmake/amber_b1_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.595s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/cmake/amber_b1_interfaces__rosidl_typesupport_cppExport.cmake
+[2.596s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/cmake/amber_b1_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.597s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.597s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.598s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.598s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.602s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.603s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.605s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.606s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/cmake/amber_b1_interfacesConfig.cmake
+[2.608s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/cmake/amber_b1_interfacesConfig-version.cmake
+[2.609s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_interfaces/share/amber_b1_interfaces/package.xml
+[2.611s] Invoked command in '/home/amber/ros2_ws/build/amber_b1_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/amber/ros2_ws/build/amber_b1_interfaces

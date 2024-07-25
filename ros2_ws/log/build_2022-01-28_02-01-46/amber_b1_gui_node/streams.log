@@ -1,0 +1,39 @@
+[0.049s] Invoking command in '/home/amber/ros2_ws/build/amber_b1_gui_node': CMAKE_PREFIX_PATH=/home/amber/ros2_ws/install/amber_b1_interfaces:/home/amber/ros2_ws/install/amber_b1_joint_control_demo:/home/amber/ros2_ws/install/amber_b1_description:/opt/ros/foxy /usr/bin/cmake --build /home/amber/ros2_ws/build/amber_b1_gui_node -- -j4 -l4
+[0.154s] [35m[1mScanning dependencies of target gui_node[0m
+[0.244s] [ 12%] [32mBuilding CXX object CMakeFiles/gui_node.dir/src/kinematic.cpp.o[0m
+[13.877s] [ 25%] [32m[1mLinking CXX executable gui_node[0m
+[15.274s] [100%] Built target gui_node
+[15.303s] Invoked command in '/home/amber/ros2_ws/build/amber_b1_gui_node' returned '0': CMAKE_PREFIX_PATH=/home/amber/ros2_ws/install/amber_b1_interfaces:/home/amber/ros2_ws/install/amber_b1_joint_control_demo:/home/amber/ros2_ws/install/amber_b1_description:/opt/ros/foxy /usr/bin/cmake --build /home/amber/ros2_ws/build/amber_b1_gui_node -- -j4 -l4
+[15.396s] Invoking command in '/home/amber/ros2_ws/build/amber_b1_gui_node': CMAKE_PREFIX_PATH=/home/amber/ros2_ws/install/amber_b1_interfaces:/home/amber/ros2_ws/install/amber_b1_joint_control_demo:/home/amber/ros2_ws/install/amber_b1_description:/opt/ros/foxy /usr/bin/cmake --install /home/amber/ros2_ws/build/amber_b1_gui_node
+[15.419s] -- Install configuration: ""
+[15.419s] -- Installing: /home/amber/ros2_ws/install/amber_b1_gui_node/lib/amber_b1_gui_node/gui_node
+[15.428s] -- Set runtime path of "/home/amber/ros2_ws/install/amber_b1_gui_node/lib/amber_b1_gui_node/gui_node" to ""
+[15.429s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/launch
+[15.430s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/launch/amber_b1_gui.launch.py
+[15.430s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/include
+[15.430s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/include/amber_b1_gui_node
+[15.431s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/include/amber_b1_gui_node/TrajectoryGenerator.h
+[15.431s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/include/amber_b1_gui_node/ForwardKinematics.h
+[15.431s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/include/amber_b1_gui_node/rt_nonfinite.h
+[15.431s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/include/amber_b1_gui_node/rt_defines.h
+[15.431s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/include/amber_b1_gui_node/kinematic.h
+[15.432s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/include/amber_b1_gui_node/rtwtypes.h
+[15.432s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/include/amber_b1_gui_node/InverseKinematics.h
+[15.432s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/include/amber_b1_gui_node/udp.h
+[15.432s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/include/amber_b1_gui_node/InverseKinematics_types.h
+[15.433s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/share/ament_index/resource_index/package_run_dependencies/amber_b1_gui_node
+[15.439s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/share/ament_index/resource_index/parent_prefix_path/amber_b1_gui_node
+[15.440s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/environment/ament_prefix_path.sh
+[15.441s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/environment/ament_prefix_path.dsv
+[15.441s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/environment/path.sh
+[15.442s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/environment/path.dsv
+[15.442s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/local_setup.bash
+[15.443s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/local_setup.sh
+[15.444s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/local_setup.zsh
+[15.445s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/local_setup.dsv
+[15.445s] -- Installing: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/package.dsv
+[15.446s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/share/ament_index/resource_index/packages/amber_b1_gui_node
+[15.446s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/cmake/amber_b1_gui_nodeConfig.cmake
+[15.447s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/cmake/amber_b1_gui_nodeConfig-version.cmake
+[15.447s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/package.xml
+[15.448s] Invoked command in '/home/amber/ros2_ws/build/amber_b1_gui_node' returned '0': CMAKE_PREFIX_PATH=/home/amber/ros2_ws/install/amber_b1_interfaces:/home/amber/ros2_ws/install/amber_b1_joint_control_demo:/home/amber/ros2_ws/install/amber_b1_description:/opt/ros/foxy /usr/bin/cmake --install /home/amber/ros2_ws/build/amber_b1_gui_node

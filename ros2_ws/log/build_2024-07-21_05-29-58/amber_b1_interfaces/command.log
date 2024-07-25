@@ -1,0 +1,4 @@
+Invoking command in '/home/amber/ros2_ws/build/amber_b1_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/amber/ros2_ws/build/amber_b1_interfaces -- -j2 -l2
+Invoked command in '/home/amber/ros2_ws/build/amber_b1_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/amber/ros2_ws/build/amber_b1_interfaces -- -j2 -l2
+Invoking command in '/home/amber/ros2_ws/build/amber_b1_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/amber/ros2_ws/build/amber_b1_interfaces
+Invoked command in '/home/amber/ros2_ws/build/amber_b1_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/amber/ros2_ws/build/amber_b1_interfaces

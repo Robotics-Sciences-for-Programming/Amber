@@ -1,0 +1,35 @@
+[35m[1mScanning dependencies of target amber_b1_hardware[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/amber_b1_hardware.dir/src/amber_b1_interface.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/amber_b1_hardware.dir/src/rt_spi.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libamber_b1_hardware.so[0m
+[100%] Built target amber_b1_hardware
+-- Install configuration: ""
+-- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/share/amber_b1_hardware/amber_b1_hardware.xml
+-- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/lib/libamber_b1_hardware.so
+-- Set runtime path of "/home/amber/ros2_ws/install/amber_b1_hardware/lib/libamber_b1_hardware.so" to ""
+-- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/include
+-- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/include/amber_b1_hardware
+-- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/include/amber_b1_hardware/visibility_control.h
+-- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/include/amber_b1_hardware/rt_spi.h
+-- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/include/amber_b1_hardware/amber_b1_interface.hpp
+-- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/share/amber_b1_hardware/environment/library_path.sh
+-- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/share/amber_b1_hardware/environment/library_path.dsv
+-- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/share/ament_index/resource_index/package_run_dependencies/amber_b1_hardware
+-- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/share/ament_index/resource_index/parent_prefix_path/amber_b1_hardware
+-- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/share/amber_b1_hardware/environment/ament_prefix_path.sh
+-- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/share/amber_b1_hardware/environment/ament_prefix_path.dsv
+-- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/share/amber_b1_hardware/environment/path.sh
+-- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/share/amber_b1_hardware/environment/path.dsv
+-- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/share/amber_b1_hardware/local_setup.bash
+-- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/share/amber_b1_hardware/local_setup.sh
+-- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/share/amber_b1_hardware/local_setup.zsh
+-- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/share/amber_b1_hardware/local_setup.dsv
+-- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/share/amber_b1_hardware/package.dsv
+-- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/share/ament_index/resource_index/packages/amber_b1_hardware
+-- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/amber_b1_hardware
+-- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/share/amber_b1_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/share/amber_b1_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/share/amber_b1_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/share/amber_b1_hardware/cmake/amber_b1_hardwareConfig.cmake
+-- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/share/amber_b1_hardware/cmake/amber_b1_hardwareConfig-version.cmake
+-- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/share/amber_b1_hardware/package.xml

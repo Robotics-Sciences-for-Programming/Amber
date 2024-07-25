@@ -1,0 +1,6 @@
+{
+  "package_name": "amber_b1_interfaces",
+  "non_idl_tuples": [
+    "/home/amber/ros2_ws/src/amber_b1/amber_b1_interfaces:srv/Mode.srv"
+  ]
+}

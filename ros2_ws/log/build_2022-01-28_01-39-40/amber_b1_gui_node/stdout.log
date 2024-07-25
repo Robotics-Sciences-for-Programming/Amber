@@ -1,0 +1,41 @@
+[35m[1mScanning dependencies of target gui_node[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/gui_node.dir/src/gui_node.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/gui_node.dir/src/TrajectoryGenerator.cpp.o[0m
+[ 37%] [32mBuilding C object CMakeFiles/gui_node.dir/src/udp.c.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/gui_node.dir/src/kinematic.cpp.o[0m
+[ 62%] [32mBuilding C object CMakeFiles/gui_node.dir/src/ForwardKinematics.c.o[0m
+[ 75%] [32mBuilding C object CMakeFiles/gui_node.dir/src/InverseKinematics.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/gui_node.dir/src/rt_nonfinite.c.o[0m
+[100%] [32m[1mLinking CXX executable gui_node[0m
+[100%] Built target gui_node
+-- Install configuration: ""
+-- Installing: /home/amber/ros2_ws/install/amber_b1_gui_node/lib/amber_b1_gui_node/gui_node
+-- Set runtime path of "/home/amber/ros2_ws/install/amber_b1_gui_node/lib/amber_b1_gui_node/gui_node" to ""
+-- Installing: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/launch
+-- Installing: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/launch/amber_b1_gui.launch.py
+-- Installing: /home/amber/ros2_ws/install/amber_b1_gui_node/include
+-- Installing: /home/amber/ros2_ws/install/amber_b1_gui_node/include/amber_b1_gui_node
+-- Installing: /home/amber/ros2_ws/install/amber_b1_gui_node/include/amber_b1_gui_node/TrajectoryGenerator.h
+-- Installing: /home/amber/ros2_ws/install/amber_b1_gui_node/include/amber_b1_gui_node/ForwardKinematics.h
+-- Installing: /home/amber/ros2_ws/install/amber_b1_gui_node/include/amber_b1_gui_node/rt_nonfinite.h
+-- Installing: /home/amber/ros2_ws/install/amber_b1_gui_node/include/amber_b1_gui_node/rt_defines.h
+-- Installing: /home/amber/ros2_ws/install/amber_b1_gui_node/include/amber_b1_gui_node/kinematic.h
+-- Installing: /home/amber/ros2_ws/install/amber_b1_gui_node/include/amber_b1_gui_node/rtwtypes.h
+-- Installing: /home/amber/ros2_ws/install/amber_b1_gui_node/include/amber_b1_gui_node/InverseKinematics.h
+-- Installing: /home/amber/ros2_ws/install/amber_b1_gui_node/include/amber_b1_gui_node/udp.h
+-- Installing: /home/amber/ros2_ws/install/amber_b1_gui_node/include/amber_b1_gui_node/InverseKinematics_types.h
+-- Installing: /home/amber/ros2_ws/install/amber_b1_gui_node/share/ament_index/resource_index/package_run_dependencies/amber_b1_gui_node
+-- Installing: /home/amber/ros2_ws/install/amber_b1_gui_node/share/ament_index/resource_index/parent_prefix_path/amber_b1_gui_node
+-- Installing: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/environment/ament_prefix_path.sh
+-- Installing: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/environment/ament_prefix_path.dsv
+-- Installing: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/environment/path.sh
+-- Installing: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/environment/path.dsv
+-- Installing: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/local_setup.bash
+-- Installing: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/local_setup.sh
+-- Installing: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/local_setup.zsh
+-- Installing: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/local_setup.dsv
+-- Installing: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/package.dsv
+-- Installing: /home/amber/ros2_ws/install/amber_b1_gui_node/share/ament_index/resource_index/packages/amber_b1_gui_node
+-- Installing: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/cmake/amber_b1_gui_nodeConfig.cmake
+-- Installing: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/cmake/amber_b1_gui_nodeConfig-version.cmake
+-- Installing: /home/amber/ros2_ws/install/amber_b1_gui_node/share/amber_b1_gui_node/package.xml

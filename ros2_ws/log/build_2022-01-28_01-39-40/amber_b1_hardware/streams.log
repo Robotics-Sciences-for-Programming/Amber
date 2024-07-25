@@ -1,0 +1,39 @@
+[0.050s] Invoking command in '/home/amber/ros2_ws/build/amber_b1_hardware': CMAKE_PREFIX_PATH=/home/amber/ros2_ws/install/amber_b1_interfaces:/home/amber/ros2_ws/install/amber_b1_joint_control_demo:/home/amber/ros2_ws/install/amber_b1_description:/opt/ros/foxy /usr/bin/cmake --build /home/amber/ros2_ws/build/amber_b1_hardware -- -j4 -l4
+[0.154s] [35m[1mScanning dependencies of target amber_b1_hardware[0m
+[0.243s] [ 33%] [32mBuilding CXX object CMakeFiles/amber_b1_hardware.dir/src/amber_b1_interface.cpp.o[0m
+[0.249s] [ 66%] [32mBuilding CXX object CMakeFiles/amber_b1_hardware.dir/src/rt_spi.cpp.o[0m
+[12.412s] [100%] [32m[1mLinking CXX shared library libamber_b1_hardware.so[0m
+[13.419s] [100%] Built target amber_b1_hardware
+[13.455s] Invoked command in '/home/amber/ros2_ws/build/amber_b1_hardware' returned '0': CMAKE_PREFIX_PATH=/home/amber/ros2_ws/install/amber_b1_interfaces:/home/amber/ros2_ws/install/amber_b1_joint_control_demo:/home/amber/ros2_ws/install/amber_b1_description:/opt/ros/foxy /usr/bin/cmake --build /home/amber/ros2_ws/build/amber_b1_hardware -- -j4 -l4
+[13.522s] Invoking command in '/home/amber/ros2_ws/build/amber_b1_hardware': CMAKE_PREFIX_PATH=/home/amber/ros2_ws/install/amber_b1_interfaces:/home/amber/ros2_ws/install/amber_b1_joint_control_demo:/home/amber/ros2_ws/install/amber_b1_description:/opt/ros/foxy /usr/bin/cmake --install /home/amber/ros2_ws/build/amber_b1_hardware
+[13.543s] -- Install configuration: ""
+[13.544s] -- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/share/amber_b1_hardware/amber_b1_hardware.xml
+[13.544s] -- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/lib/libamber_b1_hardware.so
+[13.548s] -- Set runtime path of "/home/amber/ros2_ws/install/amber_b1_hardware/lib/libamber_b1_hardware.so" to ""
+[13.549s] -- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/include
+[13.550s] -- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/include/amber_b1_hardware
+[13.550s] -- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/include/amber_b1_hardware/visibility_control.h
+[13.551s] -- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/include/amber_b1_hardware/rt_spi.h
+[13.551s] -- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/include/amber_b1_hardware/amber_b1_interface.hpp
+[13.552s] -- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/share/amber_b1_hardware/environment/library_path.sh
+[13.553s] -- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/share/amber_b1_hardware/environment/library_path.dsv
+[13.554s] -- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/share/ament_index/resource_index/package_run_dependencies/amber_b1_hardware
+[13.554s] -- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/share/ament_index/resource_index/parent_prefix_path/amber_b1_hardware
+[13.555s] -- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/share/amber_b1_hardware/environment/ament_prefix_path.sh
+[13.556s] -- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/share/amber_b1_hardware/environment/ament_prefix_path.dsv
+[13.557s] -- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/share/amber_b1_hardware/environment/path.sh
+[13.558s] -- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/share/amber_b1_hardware/environment/path.dsv
+[13.558s] -- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/share/amber_b1_hardware/local_setup.bash
+[13.559s] -- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/share/amber_b1_hardware/local_setup.sh
+[13.560s] -- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/share/amber_b1_hardware/local_setup.zsh
+[13.560s] -- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/share/amber_b1_hardware/local_setup.dsv
+[13.561s] -- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/share/amber_b1_hardware/package.dsv
+[13.562s] -- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/share/ament_index/resource_index/packages/amber_b1_hardware
+[13.562s] -- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/amber_b1_hardware
+[13.563s] -- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/share/amber_b1_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.563s] -- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/share/amber_b1_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+[13.563s] -- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/share/amber_b1_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.570s] -- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/share/amber_b1_hardware/cmake/amber_b1_hardwareConfig.cmake
+[13.571s] -- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/share/amber_b1_hardware/cmake/amber_b1_hardwareConfig-version.cmake
+[13.572s] -- Installing: /home/amber/ros2_ws/install/amber_b1_hardware/share/amber_b1_hardware/package.xml
+[13.573s] Invoked command in '/home/amber/ros2_ws/build/amber_b1_hardware' returned '0': CMAKE_PREFIX_PATH=/home/amber/ros2_ws/install/amber_b1_interfaces:/home/amber/ros2_ws/install/amber_b1_joint_control_demo:/home/amber/ros2_ws/install/amber_b1_description:/opt/ros/foxy /usr/bin/cmake --install /home/amber/ros2_ws/build/amber_b1_hardware

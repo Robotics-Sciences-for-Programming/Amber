@@ -1,0 +1,9 @@
+<library path="amber_b1_hardware">
+  <class name="AmberB1Hardware"
+         type="AmberB1Hardware"
+         base_class_type="hardware_interface::SystemInterface">
+    <description>
+      amber-b1 ros2
+    </description>
+  </class>
+</library>

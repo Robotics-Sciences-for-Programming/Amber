@@ -1,0 +1,16 @@
+/home/amber/ros2_ws/install/amber_b1_joint_control_demo/lib/amber_b1_joint_control_demo/joint_control_demo
+/home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/ament_index/resource_index/package_run_dependencies/amber_b1_joint_control_demo
+/home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/ament_index/resource_index/parent_prefix_path/amber_b1_joint_control_demo
+/home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/environment/ament_prefix_path.sh
+/home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/environment/ament_prefix_path.dsv
+/home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/environment/path.sh
+/home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/environment/path.dsv
+/home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/local_setup.bash
+/home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/local_setup.sh
+/home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/local_setup.zsh
+/home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/local_setup.dsv
+/home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/package.dsv
+/home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/ament_index/resource_index/packages/amber_b1_joint_control_demo
+/home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/cmake/amber_b1_joint_control_demoConfig.cmake
+/home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/cmake/amber_b1_joint_control_demoConfig-version.cmake
+/home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/package.xml

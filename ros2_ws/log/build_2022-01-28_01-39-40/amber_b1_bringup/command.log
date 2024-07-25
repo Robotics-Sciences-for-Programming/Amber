@@ -1,0 +1,6 @@
+Invoking command in '/home/amber/ros2_ws/build/amber_b1_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/amber/ros2_ws/src/amber_b1/amber_b1_bringup -DCMAKE_INSTALL_PREFIX=/home/amber/ros2_ws/install/amber_b1_bringup
+Invoked command in '/home/amber/ros2_ws/build/amber_b1_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/amber/ros2_ws/src/amber_b1/amber_b1_bringup -DCMAKE_INSTALL_PREFIX=/home/amber/ros2_ws/install/amber_b1_bringup
+Invoking command in '/home/amber/ros2_ws/build/amber_b1_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/amber/ros2_ws/build/amber_b1_bringup -- -j4 -l4
+Invoked command in '/home/amber/ros2_ws/build/amber_b1_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/amber/ros2_ws/build/amber_b1_bringup -- -j4 -l4
+Invoking command in '/home/amber/ros2_ws/build/amber_b1_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/amber/ros2_ws/build/amber_b1_bringup
+Invoked command in '/home/amber/ros2_ws/build/amber_b1_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/amber/ros2_ws/build/amber_b1_bringup

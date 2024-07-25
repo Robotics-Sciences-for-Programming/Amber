@@ -1,0 +1,53 @@
+[INFO] [launch]: All log files can be found below /home/amber/.ros/log/2024-07-21-08-20-28-605635-B1-2130
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [ros2_control_node-1]: process started with pid [2135]
+[INFO] [robot_state_publisher-2]: process started with pid [2137]
+[INFO] [gui_node-3]: process started with pid [2139]
+[INFO] [spawner.py-4]: process started with pid [2141]
+[INFO] [spawner.py-5]: process started with pid [2143]
+[robot_state_publisher-2] Parsing robot urdf xml string.
+[ros2_control_node-1] [INFO] [1721575230.086584311] [AmberB1Hardware]: is_hw 1.000000
+[ros2_control_node-1] [INFO] [1721575230.086878578] [AmberB1Hardware]: joint joint1
+[ros2_control_node-1] [INFO] [1721575230.086897689] [AmberB1Hardware]: joint joint2
+[ros2_control_node-1] [INFO] [1721575230.086909753] [AmberB1Hardware]: joint joint3
+[ros2_control_node-1] [INFO] [1721575230.086920357] [AmberB1Hardware]: joint joint4
+[ros2_control_node-1] [INFO] [1721575230.086930644] [AmberB1Hardware]: joint joint5
+[ros2_control_node-1] [INFO] [1721575230.086941289] [AmberB1Hardware]: joint joint6
+[ros2_control_node-1] [INFO] [1721575230.086951533] [AmberB1Hardware]: joint joint7
+[ros2_control_node-1] [INFO] [1721575230.088246720] [AmberB1Hardware]: Starting ...please wait...
+[robot_state_publisher-2] The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[robot_state_publisher-2] Link one_Link had 1 children
+[robot_state_publisher-2] Link two_Link had 1 children
+[robot_state_publisher-2] Link three_Link had 1 children
+[robot_state_publisher-2] Link four_Link had 1 children
+[robot_state_publisher-2] Link five_Link had 1 children
+[robot_state_publisher-2] Link six_Link had 1 children
+[robot_state_publisher-2] Link seven_Link had 1 children
+[robot_state_publisher-2] Link link_eef had 0 children
+[robot_state_publisher-2] [INFO] [1721575230.093563467] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-2] [INFO] [1721575230.095974580] [robot_state_publisher]: got segment five_Link
+[robot_state_publisher-2] [INFO] [1721575230.096046125] [robot_state_publisher]: got segment four_Link
+[robot_state_publisher-2] [INFO] [1721575230.096067449] [robot_state_publisher]: got segment link_eef
+[robot_state_publisher-2] [INFO] [1721575230.096087618] [robot_state_publisher]: got segment one_Link
+[robot_state_publisher-2] [INFO] [1721575230.096107666] [robot_state_publisher]: got segment seven_Link
+[robot_state_publisher-2] [INFO] [1721575230.096127614] [robot_state_publisher]: got segment six_Link
+[robot_state_publisher-2] [INFO] [1721575230.096146969] [robot_state_publisher]: got segment three_Link
+[robot_state_publisher-2] [INFO] [1721575230.096167226] [robot_state_publisher]: got segment two_Link
+[ros2_control_node-1] [INFO] [1721575230.348501821] [AmberB1Hardware]: 2.0 seconds left...
+[spawner.py-5] [INFO] [1721575230.729573063] [spawner_position_trajectory_controller]: Waiting for /controller_manager services
+[ros2_control_node-1] [INFO] [1721575231.360593465] [AmberB1Hardware]: 1.0 seconds left...
+[ros2_control_node-1] [INFO] [1721575232.373985039] [AmberB1Hardware]: System Successfully started!
+[ros2_control_node-1] [INFO] [1721575232.426612404] [controller_manager]: update rate is 200 Hz
+[ros2_control_node-1] [INFO] [1721575232.457023338] [controller_manager]: Loading controller 'position_trajectory_controller'
+[spawner.py-5] [INFO] [1721575232.525409039] [spawner_position_trajectory_controller]: [94mLoaded position_trajectory_controller[0m
+[ros2_control_node-1] [INFO] [1721575232.536188042] [controller_manager]: Loading controller 'joint_state_broadcaster'
+[ros2_control_node-1] [INFO] [1721575232.613238750] [controller_manager]: Configuring controller 'position_trajectory_controller'
+[ros2_control_node-1] [INFO] [1721575232.613463151] [position_trajectory_controller]: Command interfaces are [position velocity] and and state interfaces are [position velocity].
+[ros2_control_node-1] [INFO] [1721575232.618783970] [position_trajectory_controller]: Controller state will be published at 200.00 Hz.
+[spawner.py-4] [INFO] [1721575232.621756563] [spawner_joint_state_broadcaster]: [94mLoaded joint_state_broadcaster[0m
+[ros2_control_node-1] [INFO] [1721575232.643463712] [position_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[ros2_control_node-1] [INFO] [1721575232.663550105] [controller_manager]: Configuring controller 'joint_state_broadcaster'
+[spawner.py-5] [INFO] [1721575232.685612053] [spawner_position_trajectory_controller]: [92mConfigured and started [96mposition_trajectory_controller[0m
+[spawner.py-4] [INFO] [1721575232.696134070] [spawner_joint_state_broadcaster]: [92mConfigured and started [96mjoint_state_broadcaster[0m
+[INFO] [spawner.py-5]: process has finished cleanly [pid 2143]
+[INFO] [spawner.py-4]: process has finished cleanly [pid 2141]

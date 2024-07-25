@@ -1,0 +1,4 @@
+source;share/amber_b1_gui_node/local_setup.bash
+source;share/amber_b1_gui_node/local_setup.dsv
+source;share/amber_b1_gui_node/local_setup.sh
+source;share/amber_b1_gui_node/local_setup.zsh

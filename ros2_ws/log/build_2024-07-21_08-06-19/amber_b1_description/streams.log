@@ -1,0 +1,44 @@
+[0.064s] Invoking command in '/home/amber/ros2_ws/build/amber_b1_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/amber/ros2_ws/build/amber_b1_description -- -j2 -l2
+[0.183s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.277s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.746s] -- Configuring done
+[1.758s] -- Generating done
+[1.763s] -- Build files have been written to: /home/amber/ros2_ws/build/amber_b1_description
+[1.825s] Invoked command in '/home/amber/ros2_ws/build/amber_b1_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/amber/ros2_ws/build/amber_b1_description -- -j2 -l2
+[1.932s] Invoking command in '/home/amber/ros2_ws/build/amber_b1_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/amber/ros2_ws/build/amber_b1_description
+[1.970s] -- Install configuration: ""
+[1.970s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/config
+[1.991s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/config/rviz.rviz
+[1.992s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/meshes
+[1.992s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/meshes/base_link.STL
+[1.993s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/meshes/three_Link.STL
+[1.993s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/meshes/four_Link.STL
+[1.994s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/meshes/seven_Link.STL
+[1.994s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/meshes/two_Link.STL
+[1.994s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/meshes/six_Link.STL
+[1.995s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/meshes/one_Link.STL
+[1.995s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/meshes/five_Link.STL
+[1.995s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/launch
+[1.995s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/launch/view_robot.launch.py
+[1.996s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/launch/view_robot_ex.launch.py
+[1.996s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/urdf
+[1.997s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/urdf/amber_b1.urdf
+[1.998s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/urdf/amber_b1.ros2_control.xacro
+[1.998s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/urdf/amber_b1_description.urdf.xacro
+[1.999s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/urdf/amber_b1.urdf.xacro
+[1.999s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/ament_index/resource_index/package_run_dependencies/amber_b1_description
+[1.999s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/ament_index/resource_index/parent_prefix_path/amber_b1_description
+[1.999s] -- Installing: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/environment/ament_prefix_path.sh
+[2.000s] -- Installing: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/environment/ament_prefix_path.dsv
+[2.002s] -- Installing: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/environment/path.sh
+[2.005s] -- Installing: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/environment/path.dsv
+[2.007s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/local_setup.bash
+[2.007s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/local_setup.sh
+[2.008s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/local_setup.zsh
+[2.009s] -- Installing: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/local_setup.dsv
+[2.010s] -- Installing: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/package.dsv
+[2.012s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/ament_index/resource_index/packages/amber_b1_description
+[2.015s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/cmake/amber_b1_descriptionConfig.cmake
+[2.017s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/cmake/amber_b1_descriptionConfig-version.cmake
+[2.018s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_description/share/amber_b1_description/package.xml
+[2.030s] Invoked command in '/home/amber/ros2_ws/build/amber_b1_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/amber/ros2_ws/build/amber_b1_description

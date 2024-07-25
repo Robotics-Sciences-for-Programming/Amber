@@ -1,0 +1,49 @@
+[0.064s] Invoking command in '/home/amber/ros2_ws/build/amber_b1_joint_control_demo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/amber/ros2_ws/build/amber_b1_joint_control_demo -- -j2 -l2
+[0.165s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.233s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.928s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.046s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.059s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.344s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.525s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.530s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.062s] -- Found trajectory_msgs: 2.0.5 (/opt/ros/foxy/share/trajectory_msgs/cmake)
+[2.504s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.799s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.803s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.805s] -- Configured cppcheck include dirs: 
+[2.805s] -- Configured cppcheck exclude dirs and/or files: 
+[2.808s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.808s] -- Configured cpplint exclude dirs and/or files: 
+[2.811s] -- Added test 'lint_cmake' to check CMake code style
+[2.814s] -- Added test 'uncrustify' to check C / C++ code style
+[2.814s] -- Configured uncrustify additional arguments: 
+[2.819s] -- Added test 'xmllint' to check XML markup files
+[2.829s] -- Configuring done
+[2.863s] -- Generating done
+[2.870s] -- Build files have been written to: /home/amber/ros2_ws/build/amber_b1_joint_control_demo
+[2.958s] [35m[1mScanning dependencies of target joint_control_demo[0m
+[3.106s] [ 50%] [32mBuilding CXX object CMakeFiles/joint_control_demo.dir/src/joint_control_demo.cpp.o[0m
+[21.047s] [100%] [32m[1mLinking CXX executable joint_control_demo[0m
+[22.064s] [100%] Built target joint_control_demo
+[22.104s] Invoked command in '/home/amber/ros2_ws/build/amber_b1_joint_control_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/amber/ros2_ws/build/amber_b1_joint_control_demo -- -j2 -l2
+[22.215s] Invoking command in '/home/amber/ros2_ws/build/amber_b1_joint_control_demo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/amber/ros2_ws/build/amber_b1_joint_control_demo
+[22.248s] -- Install configuration: ""
+[22.274s] -- Installing: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/lib/amber_b1_joint_control_demo/joint_control_demo
+[22.278s] -- Set runtime path of "/home/amber/ros2_ws/install/amber_b1_joint_control_demo/lib/amber_b1_joint_control_demo/joint_control_demo" to ""
+[22.279s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/ament_index/resource_index/package_run_dependencies/amber_b1_joint_control_demo
+[22.281s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/ament_index/resource_index/parent_prefix_path/amber_b1_joint_control_demo
+[22.283s] -- Installing: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/environment/ament_prefix_path.sh
+[22.285s] -- Installing: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/environment/ament_prefix_path.dsv
+[22.287s] -- Installing: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/environment/path.sh
+[22.289s] -- Installing: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/environment/path.dsv
+[22.291s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/local_setup.bash
+[22.292s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/local_setup.sh
+[22.294s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/local_setup.zsh
+[22.294s] -- Installing: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/local_setup.dsv
+[22.297s] -- Installing: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/package.dsv
+[22.299s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/ament_index/resource_index/packages/amber_b1_joint_control_demo
+[22.300s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/cmake/amber_b1_joint_control_demoConfig.cmake
+[22.300s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/cmake/amber_b1_joint_control_demoConfig-version.cmake
+[22.301s] -- Up-to-date: /home/amber/ros2_ws/install/amber_b1_joint_control_demo/share/amber_b1_joint_control_demo/package.xml
+[22.314s] Invoked command in '/home/amber/ros2_ws/build/amber_b1_joint_control_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/amber/ros2_ws/build/amber_b1_joint_control_demo
